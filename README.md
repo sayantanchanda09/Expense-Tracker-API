@@ -1,6 +1,6 @@
 # Expense Tracker API
 
-A secure, full-featured REST API for tracking personal expenses, built with Spring Boot. Built as a hands-on project to relearn and deepen Java backend development skills, covering the full stack of a modern production-style API: layered architecture, JWT authentication, per-user data ownership, validation, and centralized error handling.
+A secure, full-featured REST API for tracking personal expenses, built with Spring Boot. Built on Java backend development skills, covering the full stack of a modern production-style API: layered architecture, JWT authentication, per-user data ownership, validation, and centralized error handling.
 
 ## Features
 
