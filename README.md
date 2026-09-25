@@ -102,6 +102,16 @@ The app is Docker-ready and configured for deployment with a `prod` Spring profi
 | `DATABASE_PASSWORD` | Database password |
 | `JWT_SECRET` | Secret key used to sign JWTs |
 
+## Postman Collection
+
+A ready-to-use Postman collection and environment are included in the `postman/` folder, with all 7 endpoints pre-configured and a script that automatically saves your JWT after login — no manual token copy-pasting needed.
+
+**To use it:**
+1. Open Postman → **Import** → select `postman/Expense Tracker API.postman_collection.json`
+2. Also import `postman/Local.postman_environment.json`
+3. Select the **Local** environment from the dropdown (top right)
+4. Run **Register User**, then **Login** — the JWT is automatically captured and reused by every other request in the collection
+
 ## What's Next
 
 - Automated unit and integration tests
